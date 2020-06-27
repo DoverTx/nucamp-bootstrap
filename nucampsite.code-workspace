@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\1-HTML-CSS-JavaScript\\week3"
+		},
+		{
+			"path": "..\\..\\1-HTML-CSS-JavaScript\\week4"
+		},
+		{
+			"path": "..\\..\\MyTest"
+		},
+		{
+			"path": "..\\..\\..\\Udemy\\HTML-CSS\\html-css"
+		},
+		{
+			"path": "..\\..\\..\\Udemy\\WebDeveloper"
+		},
+		{
+			"path": "..\\..\\..\\youtube\\tictactoe"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "tictactoe"
+	}
+}
