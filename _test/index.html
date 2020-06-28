@@ -5,22 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!--  Bootstrap CSS  -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" />
 
     <!-- Additional CSS must be place after Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
     <link rel="stylesheet" href="css/styles.css" />
-
+    <style>
+    .container {
+        border: solid blue;
+    }
+    .row {
+        border: solid yellow;
+    }
+    .row div {
+        border: solid lightgreen;
+    }
+    </style>  
     <title>NuCamp: A Better Way To Camp</title>
 </head>
 <body>
+    <div class="container-fluid">   <!-- container-fluid -->
+        <div class="row">
+            <div class="col">1</div>
+            <div class="col">2</div>
+            <div class="col">3</div>
+            <div class="col">4</div>
+            <div class="col">5</div>
+            <div class="col">6</div>
+            <div class="col">7</div>
+            <div class="col">8</div>
+            <div class="col">9</div>
+            <div class="col">10</div>
+            <div class="col">11</div>
+            <div class="col">12</div>
+        </div>
+
+    </div>
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container.fluid">
+            <div class="row row-content align-items-center">
+                <div class="col-2">
+                <!-- <div class=" col-sm-3 col-md-2 align-self-center"></div> -->
+                    <img class=" float-right" src="img/logo.png" class="img-fluid" style="width:120px;height:120px; " />
+                 </div>
+                <div class="col-md-5 m-400">
+                    <h1>NuCamp</h1>
+                    
+                    <h2>a better way to camp</h2>
+                </div>
+                <div class="col">  
+                    <a  class="btn btn-lg bg-info text-white mt-0 active" href="#reserveForm" roll="button">Reserve Campsite</a>
+                  
+                </div>
+            </div>
+       </div>
+    </header>
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row row-content align-items-top">
-                <!-- <div class="col-4 col-sm-3 col-md-2 align-self-center"> -->
-                    <div class="col-sm-3 col-md-2 align-self-center">
+                <div class="col-sm-3 col-md-2 align-self-center">
+                <!-- <div class=" col-sm-3 col-md-2 align-self-center"></div> -->
                     <img src="img/logo.png" class="img-fluid" />
                  </div>
                 <div class="col">
@@ -28,8 +74,9 @@
                     
                     <h2>a better way to camp</h2>
                 </div>
-                <div class="col-md-4 col-xl-3">  <!-- changed from xl-2    -->
-                    <a  class="btn btn-lg bg-info text-white mt-4" href="#reserveForm" roll="button">Reserve Campsite</a>
+                <div class="col-md-4 col-xl-3">  
+                    <a  class="btn btn-lg bg-info text-white mt-4 active" href="#reserveForm" roll="button">Reserve Campsite</a>
+                  
                 </div>
             </div>
        </div>
@@ -67,12 +114,12 @@
                 </div>
             </div>
         </div>  
-    </div>
+    <!-- </div> -->
 
-    <div class="container">
+    <!-- <div class="container"> -->
         <div class="row row-content align-items-center">
             <div class="col-sm-4 col-md-3">
-                <h2>Featured Campsites</h2>
+                <h2>xFeatured Campsites</h2>
             </div>
             <div class="col">
                 <div class="media">
@@ -85,9 +132,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    <!-- </div> -->
 
-    <div class="container">
+    <!-- <div class="container"> -->
         <div class="row row-content align-items-center">
             <div class="col-sm-4 order-sm-last col-md-3">
                 <h2 class="text-sm-right">Our Community Partners</h2>
@@ -102,9 +149,9 @@
                 </div>
             </div>
         </div> 
-    </div>
+    <!-- </div> -->
         <!-- newstuff here /////////////////////////////////////////////////////////-->
-    <div class="container">
+    <!-- <div class="container"> -->
         <div class="row row-content align-items-center">
             <div class="col-sm-6 mx-auto">
                 <div class="card">
