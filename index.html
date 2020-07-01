@@ -29,8 +29,9 @@
                     <h1>NuCamp</h1>
                     <h2>a better way to camp</h2>
                 </div>
-                <div class="col-md-4 col-xl-2">  <!-- changed from xl-2    -->
-                    <a  class="btn btn-lg bg-info text-white mt-4" href="#reserveForm" roll="button">Reserve Campsite</a>
+                <div class="col-md-4 col-xl-2"> 
+                    <a href="#reserveForm" role="button" class="btn btn-lg btn-info" data-toggle="tooltip" data-placement="bottom" data-html="true" 
+                        title='Or call us at <br /><strong>1-206-555-1234</strong>'>Reserve Campsite</a>
                 </div>
             </div>
         </div>
@@ -98,7 +99,7 @@
                     </div>
                 </div>
             </div>
-        </div>   <!--@@@@@@@@@@@@@@@@  -->
+        </div>  
         <div class="row row-content align-items-center">
             <div class="col-sm-6 mx-auto">
                 <div class="card">
@@ -170,7 +171,11 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
 </body>
 
 </html>
