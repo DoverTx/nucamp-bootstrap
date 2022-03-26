@@ -20,6 +20,6 @@
   "devDependencies": {
     "jasmine": "^3.5.0",
     "lite-server": "^2.5.4",
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.6"
   }
 }
